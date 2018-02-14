@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "selenium-server-standalone": "2.53.1",
+        "nightwatch": "0.9.19",
+        "chromedriver": "~2.35.0",
+        "jshint": "~2.4.4",
+        "jsonlint": "~1.6.0" 
+    }
+}

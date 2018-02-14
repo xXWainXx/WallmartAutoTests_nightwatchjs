@@ -1,0 +1,63 @@
+17:34:30.470 INFO - Launching a standalone Selenium Server
+17:34:30.537 INFO - Java: Oracle Corporation 25.31-b07
+17:34:30.538 INFO - OS: Mac OS X 10.12.3 x86_64
+17:34:30.569 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+17:34:30.685 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:34:30.685 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:34:30.686 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:34:30.686 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:34:30.693 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+17:34:30.694 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+17:34:30.809 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:34:30.809 INFO - Selenium Server is up and running
+17:34:31.291 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sign Up, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+17:34:31.309 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sign Up, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 43397
+Only local connections are allowed.
+17:34:33.062 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sign Up, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+17:34:33.122 INFO - Executing: [get: https://www.walmart.com/account/signup])
+17:34:39.358 INFO - Done: [get: https://www.walmart.com/account/signup]
+17:34:39.371 INFO - Executing: [find elements: By.cssSelector: #checkbox-0])
+17:34:39.417 INFO - Done: [find elements: By.cssSelector: #checkbox-0]
+17:34:39.426 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: #checkbox-0]])
+17:34:39.452 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: #checkbox-0]]
+17:34:39.466 INFO - Executing: [find element: By.cssSelector: #checkbox-0])
+17:34:39.488 INFO - Done: [find element: By.cssSelector: #checkbox-0]
+17:34:39.493 INFO - Executing: [get element attribute: 0 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: #checkbox-0], value])
+17:34:39.505 INFO - Done: [get element attribute: 0 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: #checkbox-0], value]
+17:34:39.511 INFO - Executing: [find element: By.cssSelector: #checkbox-1])
+17:34:39.533 INFO - Done: [find element: By.cssSelector: #checkbox-1]
+17:34:39.539 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: #checkbox-1], value])
+17:34:39.557 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: #checkbox-1], value]
+17:34:39.566 INFO - Executing: [find elements: By.cssSelector: input[name='email']])
+17:34:39.586 INFO - Done: [find elements: By.cssSelector: input[name='email']]
+17:34:39.591 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='email']]])
+17:34:39.618 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='email']]]
+17:34:39.623 INFO - Executing: [find element: By.cssSelector: input[name='email']])
+17:34:39.647 INFO - Done: [find element: By.cssSelector: input[name='email']]
+17:34:39.654 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='email']], [a, l, e, x, +, 5, 9, 0, 6, @, t, e, s, t, ., c, o, m]])
+17:34:40.237 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='email']], [a, l, e, x, +, 5, 9, 0, 6, @, t, e, s, t, ., c, o, m]]
+17:34:40.243 INFO - Executing: [find element: By.cssSelector: input[name='firstName']])
+17:34:40.263 INFO - Done: [find element: By.cssSelector: input[name='firstName']]
+17:34:40.269 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='firstName']], [1, 2, 3]])
+17:34:40.440 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='firstName']], [1, 2, 3]]
+17:34:40.445 INFO - Executing: [find element: By.cssSelector: input[name='lastName']])
+17:34:40.466 INFO - Done: [find element: By.cssSelector: input[name='lastName']]
+17:34:40.470 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='lastName']], [T, e, s, t]])
+17:34:40.735 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='lastName']], [T, e, s, t]]
+17:34:40.741 INFO - Executing: [find element: By.cssSelector: input[name='password']])
+17:34:40.764 INFO - Done: [find element: By.cssSelector: input[name='password']]
+17:34:40.770 INFO - Executing: [send keys: 5 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='password']], [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2]])
+17:34:41.352 INFO - Done: [send keys: 5 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: input[name='password']], [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2]]
+17:34:41.360 INFO - Executing: [find element: By.cssSelector: button[data-automation-id='signup-submit-btn']])
+17:34:41.379 INFO - Done: [find element: By.cssSelector: button[data-automation-id='signup-submit-btn']]
+17:34:41.384 INFO - Executing: [click: 6 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: button[data-automation-id='signup-submit-btn']]])
+17:34:41.585 INFO - Done: [click: 6 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: button[data-automation-id='signup-submit-btn']]]
+17:34:41.593 INFO - Executing: [find element: By.cssSelector: form > div:nth-child(3) > label > div.error-label.ada-error-message > span.ada-error-text])
+17:34:41.612 INFO - Done: [find element: By.cssSelector: form > div:nth-child(3) > label > div.error-label.ada-error-message > span.ada-error-text]
+17:34:41.616 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: form > div:nth-child(3) > label > div.error-label.ada-error-message > span.ada-error-text]])
+17:34:41.641 INFO - Done: [get text: 7 [[ChromeDriver: chrome on MAC (807bb7d4639828f0a689f48beaf8cbf3)] -> css selector: form > div:nth-child(3) > label > div.error-label.ada-error-message > span.ada-error-text]]
+17:34:41.647 INFO - Executing: [delete session: 9f94f301-4b30-4191-b339-0fc45a24fd4e])
+17:34:41.741 INFO - Done: [delete session: 9f94f301-4b30-4191-b339-0fc45a24fd4e]
